@@ -1,12 +1,23 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>LoganApp</title>
+  <title>logan-blog</title>
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
 </head>
 <body>
+<div class="logo">
+  <%= link_to image_tag('http://www.vector-logo.net/logo_preview/eps/l/logan(1).png'), root_path %>
+</div>
+<div class= "nav-bar">
+<ul>
+  <li><a class="active" href="#home">Home</a></li>
+  <li><a href="#news">News</a></li>
+  <li><a href="#contact">Contact</a></li>
+  <li><%= link_to "About", about_path %></li>
+</ul>
+</div>
 
 <%= yield %>
 
