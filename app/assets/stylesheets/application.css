@@ -20,27 +20,11 @@
      margin:auto;
      display:block;
  }
- 
  /* Navigation Menu */
 .nav-bar{
-    background-color: #555f65;
-}
-.nav-bar ul {
-    list-style-type: none;
-    margin: 0px 0px 2% 0px;
+    margin: auto;
     padding: 0;
     overflow: hidden;
+    background-color: #333;
 }
-.nav-bar li {
-    float: left;
-}
-.nav-bar li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
-.nav-bar li a:hover {
-    background-color: #111;
-}
+
